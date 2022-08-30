@@ -8,7 +8,7 @@ from jax import jit
 import jax.numpy as np
 from jax import random
 
-from ntk_activations.stax_extensions_features import ExpNormalizedFeatures, ConvFeatures, AvgPoolFeatures, FlattenFeatures, DenseFeatures, serial
+from ntk_activations.features import ExpNormalizedFeatures, ConvFeatures, AvgPoolFeatures, FlattenFeatures, DenseFeatures, serial
 
 layer_factor = {5: [2, 1, 1], 7: [2, 2, 2], 10: [3, 3, 3]}
 

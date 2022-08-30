@@ -12,10 +12,6 @@ import argparse
 from ntk_activations.polynomials import hermite_polfit, hermite_coeffs_relu, hermite2mono
 from ntk_activations.dual_kernels import dual_kernel_exact, dual_kernel_poly, dual_kernel_empirical, get_act
 
-import os
-
-os.environ['CUDA_VISIBLE_DEVICES'] = ''
-
 
 def test_single_layer_nngp_kernel_approx():
   parser = argparse.ArgumentParser()
